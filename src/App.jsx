@@ -6,7 +6,6 @@ import { PizzaOfTheDay } from "./PizzaOfTheDay";
 const App = () => {
   return (
     <div>
-      <h1 className="title">Padre Gino's</h1>
       <Order />
       <PizzaOfTheDay />
     </div>
