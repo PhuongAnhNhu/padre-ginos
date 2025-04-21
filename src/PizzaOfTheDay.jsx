@@ -5,7 +5,7 @@ const intl = new Intl.NumberFormat("en-US", {
   currency: "USD",
 });
 
-export const PizzaOfTheDay = () => {
+const PizzaOfTheDay = () => {
   const pizzaOfTheDay = usePizzaOfTheDay();
 
   if (!pizzaOfTheDay) {
@@ -32,3 +32,4 @@ export const PizzaOfTheDay = () => {
     </div>
   );
 };
+export default PizzaOfTheDay;
